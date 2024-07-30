@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferraris and Lamborghinis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h1, h2 {
+            font-weight: normal;
+        }
+        .car-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(50% - 10px);
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ferraris and Lamborghinis</h1>
+    <p>Exploring the Elegance and Power of Iconic Supercars</p>
+</header>
+
+<section class="car-section" id="ferrari">
+    <h2>Ferrari</h2>
+    <p>Ferrari is renowned for its sleek designs, powerful engines, and racing heritage. Iconic models include the Ferrari 488, Ferrari LaFerrari, and the Ferrari F8 Tributo.</p>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300?text=Ferrari+1" alt="Ferrari 1">
+        <img src="https://via.placeholder.com/300?text=Ferrari+2" alt="Ferrari 2">
+    </div>
+</section>
+
+<section class="car-section" id="lamborghini">
+    <h2>Lamborghini</h2>
+    <p>Lamborghini is known for its aggressive styling, cutting-edge technology, and high-performance models like the Lamborghini Aventador, Huracán, and the Urus.</p>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300?text=Lamborghini+1" alt="Lamborghini 1">
+        <img src="https://via.placeholder.com/300?text=Lamborghini+2" alt="Lamborghini 2">
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300?text=Ferrari+Lamborghini+1" alt="Gallery Image 1">
+        <img src="https://via.placeholder.com/300?text=Ferrari+Lamborghini+2" alt="Gallery Image 2">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Ferraris and Lamborghinis | All Rights Reserved</p>
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Submit</button>
+    </div>
+</footer>
+
+</body>
+</html>
